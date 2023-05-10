@@ -1,5 +1,83 @@
-template-repository (1.0-1) unstable; urgency=medium
+libhttp-headers-fast-perl (0.22-3) unstable; urgency=medium
 
-  * Initial release
+  [ Debian Janitor ]
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.6.1, no changes needed.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Fri, 14 Oct 2022 09:31:44 +0100
+
+libhttp-headers-fast-perl (0.22-2) unstable; urgency=medium
+
+  * Update standards version to 4.5.0, no changes needed.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Sat, 28 May 2022 11:25:10 +0100
+
+libhttp-headers-fast-perl (0.22-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ Nick Morrott ]
+  * New upstream version 0.22
+  * d/control:
+    - Declare compliance with Debian Policy 4.4.1
+    -  Bump debhelper compatibility level to 12
+    -  Add Rules-Requires-Root field
+    -  Refresh build dependencies
+    -  Annotate test-only build dependencies with <!nocheck>
+  * d/examples:
+    - Install tools/ directory as examples
+  * d/u/metadata:
+    - Refresh upstream metadata
+  * d/watch:
+    - Migrate to version 4 watch file format
+
+ -- Nick Morrott <nickm@debian.org>  Sat, 23 Nov 2019 04:21:37 +0000
+
+libhttp-headers-fast-perl (0.21-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ gregor herrmann ]
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+  * debian/upstream/metadata: use HTTPS for GitHub URLs.
+
+  [ Florian Schlichting ]
+  * Import upstream version 0.21
+  * Adjust build-dependencies for upstream switch to M::B::Tiny
+  * Declare compliance with Debian Policy 4.1.1
+
+ -- Florian Schlichting <fsfs@debian.org>  Fri, 10 Nov 2017 14:48:55 +0100
+
+libhttp-headers-fast-perl (0.20-1) unstable; urgency=medium
+
+  * Import upstream version 0.20
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 22 Nov 2015 17:26:56 +0100
+
+libhttp-headers-fast-perl (0.19-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 0.19
+  * Bump debhelper compatibility level to 9
+  * Add libhttp-message-perl as b-d-i. It is used in tests.
+
+ -- Lucas Kanashiro <kanashiro.duarte@gmail.com>  Tue, 22 Sep 2015 15:10:57 -0300
+
+libhttp-headers-fast-perl (0.18-1) unstable; urgency=medium
+
+  * Import upstream version 0.18
+  * Drop build dependency on CPAN::Meta*.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 27 Jun 2015 13:56:47 +0200
+
+libhttp-headers-fast-perl (0.17-1) unstable; urgency=low
+
+  * Initial release (closes: #788563).
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 12 Jun 2015 20:35:13 +0200
